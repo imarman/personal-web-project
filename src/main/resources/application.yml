@@ -1,1 +1,21 @@
+spring:
+  freemarker:
+    suffix: .html
+    cache: false
 
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: mpw:MbUE+Aark8jyfdSnbbJOS2AgsFL4wdM9cIdhjAmPiMdqajGkdmqsgV0v+Tw6XFPcI6J4Ko/XDCG2XHTwo0QvuYBXy/WfSl/eGwwgyYzxyzU=
+    username: mpw:SBddKd4xaKY4TUKGxO7zaA==
+    password: mpw:rThZw1Hli8U8Ln7z6ZXu7Q==
+
+  # 返回json的全局时间格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+# mybatis-plus
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:/mapper/*.xml
