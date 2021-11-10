@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author arman
+ * @author Arman
  */
 @SpringBootApplication
 @MapperScan("com.arman.mapper")
